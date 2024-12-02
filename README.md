@@ -263,6 +263,7 @@ plt.show()
 ## PSP and AHP Kernels
 
 The **Postsynaptic Potential (PSP)** kernel and **Afterhyperpolarization (AHP)** kernel are crucial components in the modeling of synaptic input and the resulting membrane potential. These kernels are used to calculate the effect of presynaptic spikes on the postsynaptic neuron.
+The kernels referenced fromn: Arunava Banerjee. Computational Neuroscience: Methods and Modeling. Retrieved from https://www.cise.ufl.edu/~arunava/
 
 ### PSP Kernel Equation
 
