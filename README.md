@@ -10,8 +10,8 @@ This repository contains information about different Neuron Models including Lea
 2. [Spike Response Model (SRM)](#spike-response-model-srm)
    - [Single Neuron Model](#SRM-for-a-single-neuron)
    - [Multiple Synaptic Inputs](#SRM_0-for-multiple-synaptic-inputs)
-3. [Hopfield Nets as a Memory Models] (#hopfield-nets)
-3. [Author](#author)
+3. [Hopfield Nets as a Memory Models](#hopfield-nets)
+4. [Author](#author)
 
 ---
 # Introduction
