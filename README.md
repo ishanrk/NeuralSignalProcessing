@@ -10,6 +10,7 @@ This repository contains information about different Neuron Models including Lea
 2. [Spike Response Model (SRM)](#spike-response-model-srm)
    - [Single Neuron Model](#SRM-for-a-single-neuron)
    - [Multiple Synaptic Inputs](#SRM_0-for-multiple-synaptic-inputs)
+3. [Hopfield Nets as a Memory Models] (#hopfield-nets)
 3. [Author](#author)
 
 ---
@@ -347,5 +348,16 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
+# Hopfield Nets
+This project implements a Hopfield network capable of storing binary images and recalling them when fed corrupted versions. The network is trained on a set of input patterns and iteratively updates its states to converge on the closest stored memory.
+
+## Features
+
+- **Hopfield Network Implementation**: Supports training on multiple binary images and recall from corrupted inputs.
+- **Custom Corruption**: Simulates image corruption by altering a specific portion (e.g., the left quarter) of the image.
+- **Image Display**: Visualizes the original, corrupted, and recalled images for comparison.
+![image](https://github.com/user-attachments/assets/4c33ee6b-6eca-4b15-815b-bf27baa0ab80)
+
+---
 # Author
 Ishan Kumthekar
