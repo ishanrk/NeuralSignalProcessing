@@ -11,7 +11,7 @@ This repository contains information about different Neuron Models including Lea
    - [Single Neuron Model](#SRM-for-a-single-neuron)
    - [Multiple Synaptic Inputs](#SRM_0-for-multiple-synaptic-inputs)
 3. [Experiments](#experiments)
-4. [Hopfield Nets as a Memory Models](#hopfield-nets)
+4. [Hopfield Nets as a Memory Models](#hopfield-nets-and-memory-models)
 5. [Author](#author)
 
 ---
@@ -353,7 +353,7 @@ plt.show()
 Using the SRM_0 model listed above, you can design your own network of spiking neurons with some defined as input neurons that you can feed a spike train to. Then for each neuron in each layer in your network, you can measure its spiking times and plot a raster plot to show spiking frequency. I've listed an example below that shows the raster plot of 10 spiking neurons fed an input spike train of [8,10,12,70].
 ![image](https://github.com/user-attachments/assets/e7d33043-5e72-4361-857b-df6976713a6d)
 
-# Hopfield Nets
+# Hopfield Nets and Memory Models
 This project implements a Hopfield network capable of storing binary images and recalling them when fed corrupted versions. The network is trained on a set of input patterns and iteratively updates its states to converge on the closest stored memory.
 
 ## Features
@@ -361,7 +361,6 @@ This project implements a Hopfield network capable of storing binary images and 
 - **Hopfield Network Implementation**: Supports training on multiple binary images and recall from corrupted inputs.
 - **Custom Corruption**: Simulates image corruption by altering a specific portion (e.g., the left quarter) of the image.
 - **Image Display**: Visualizes the original, corrupted, and recalled images for comparison.
-![image](https://github.com/user-attachments/assets/4c33ee6b-6eca-4b15-815b-bf27baa0ab80)
 
 ---
 # Author
