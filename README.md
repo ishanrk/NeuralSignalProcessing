@@ -11,7 +11,7 @@ This repository contains information about different Neuron Models including Lea
    - [Single Neuron Model](#SRM-for-a-single-neuron)
    - [Multiple Synaptic Inputs](#SRM_0-for-multiple-synaptic-inputs)
 3. [Experiments](#experiments)
-4. [Hopfield Nets as a Memory Models](#hopfield-nets-and-memory-models)
+4. [Hopfield Nets and Memory Models](#hopfield-nets-and-memory-models)
 5. [Author](#author)
 
 ---
